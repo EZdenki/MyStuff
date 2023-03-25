@@ -18,38 +18,36 @@
    6. Exit GitBash:
       + ```exit```
 
-### Install STM32CubeProgrammer<br>
-https://www.st.com/en/development-tools/stm32cubeprog.html
-Click Get Software -> Get latest for Win64 ->ACCEPT
+### Install STM32CubeProgrammer
+1. Download, extract, and install STM32CubeProgrammer setup program from the following link. Note that you may need to register your name and email address and confirm the email address to download.
+   + https://www.st.com/en/development-tools/stm32cubeprog.html
 
-Extract en.stm32cubeprg-win64-v2xxx.zip and run
-After install, add bin folder for the STMCubeProgrammer to the path:
-  c:\Program Files\STMicroelectronics\STM32Cube\STMCubeProgrammer
+2. After install, add bin folder path for the STMCubeProgrammer to the default path:
+   + c:\Program Files\STMicroelectronics\STM32Cube\STMCubeProgrammer
 
-3. Install Arm GNU Toolchain<br>
-https://developer.arm.com/downloads/-/gnu-rm
+3. Download and install Arm GNU Toolchain. Note that this is not the latest toolchain, but may work best.
+   + https://developer.arm.com/downloads/-/gnu-rm
 
-Download and install this file. It is reportedly depreciated, but seems to work more smoothly than the latest version.
-gcc-arm-none-eabi-10.3-2021.10-win32.exe
+   + Download and install this file. It is reportedly depreciated, but seems to work more smoothly than the latest version.
+     *gcc-arm-none-eabi-10.3-2021.10-win32.exe
 
-Important: At end of installation, check “Add path to environment variable” and click “Finish”
+4. *IMPORTANT* At the end of installation, be sure to check “Add path to environment variable” and click “Finish”
 
 
-4. Install the STM32 CMSIS headers from GitHub using git inside Cygwin<br>
+### Install the STM32 CMSIS headers from GitHub using git inside Cygwin<br>
 
-Open Cygwin terminal and navigate to location where you want to do work:<br>
-    cd /cygdrive/c/Users/$USERNAME/Documents
+1. Open Cygwin terminal and navigate to location where you want to do work:<br>
+   + ```cd /cygdrive/c/Users/$USERNAME/Documents```
 
-Clone the STM32CubeF1 repo to your PC:<br>
-  git clone https://github.com/STMicroelectronics/STM32CubeF1.git
+2. Clone the STM32CubeF1 repo to your PC:<br>
+   + ```git clone https://github.com/STMicroelectronics/STM32CubeF1.git```
 
-5. Install sample Blinky program from GitHub using git<br>
-Clone the BluePill-Blinky-For-Windows repo to your PC:<br>
-  git clone https://github.com/sandynomike/ch1-blinky.git
+### Install sample Blinky program from GitHub using git<br>
+1. Clone the BluePill-Blinky-For-Windows repo to your PC:<br>
+   + ```git clone https://github.com/sandynomike/ch1-blinky.git```
 
-6. Test installation<br>
- Open Cygwin terminal. Navigate to the working directory of the Blinky project:
-
-  cd /cygdrive/c/Users/WDAGUtilityAccount/Documents/ch1-blinky
-  make clean
-  make
+### Test installation<br>
+1. Navigate to the working directory of the Blinky project:
+   + ```cd ch1-blinky```
+   + ```make clean```
+   + ```make```
