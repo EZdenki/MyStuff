@@ -31,7 +31,7 @@
    + Download and install this file. It is reportedly depreciated, but seems to work more smoothly than the latest version.
      *gcc-arm-none-eabi-10.3-2021.10-win32.exe
 
-4. *IMPORTANT* At the end of installation, be sure to check “Add path to environment variable” and click “Finish”
+4. *IMPORTANT!* At the end of installation, be sure to check “Add path to environment variable” and click “Finish”
 
 
 ### Install the STM32 CMSIS headers from GitHub using git inside Cygwin<br>
