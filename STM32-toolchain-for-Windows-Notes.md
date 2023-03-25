@@ -28,12 +28,9 @@
 3. Download and install Arm GNU Toolchain. Note that this is not the latest toolchain, but may work best.
    + https://developer.arm.com/downloads/-/gnu-rm
 
-   + Download and install this file. It is reportedly depreciated, but seems to work more smoothly than the latest version.
-     *gcc-arm-none-eabi-10.3-2021.10-win32.exe
-
-4. *IMPORTANT!* At the end of installation, be sure to check “Add path to environment variable” and click “Finish”
-
-
+   + Download and install this file. Note that it is reportedly depreciated, but seems to work more smoothly than the latest version. Also, before clicking "Finish" at the end of the installation, be sure to check “Add path to environment variable”. 
+     + gcc-arm-none-eabi-10.3-2021.10-win32.exe
+   
 ### Install the STM32 CMSIS headers from GitHub using git inside Cygwin<br>
 
 1. Open Cygwin terminal and navigate to location where you want to do work:<br>
