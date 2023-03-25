@@ -1,4 +1,4 @@
-## MyStuff (Private)
+## STM32 Toolchain for Windows Notes
 
 ### Install make for Windows
    1. Install setup program from this page:
