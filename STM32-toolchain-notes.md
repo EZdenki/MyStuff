@@ -1,15 +1,24 @@
-# MyStuff (Private)
+## MyStuff (Private)
 
-1. Install Git for Windows
-  https://gitforwindows.org/
+### Install make for Windows
+   1. Install setup program from this page:
+      + https://gnuwin32.sourceforge.net/packages/make.htm
+   2. Add path to bin folder to default path:
+      + C:\Program Files (x86)\GnuWin32\bin
 
-Under “Adjusting the name of the initial branch in new repositories, and select “Override the default branch name for new repositories” and leave as “main”
-    Start GitBash
-    Set your username: git config --global user.name "FIRST_NAME LAST_NAME"
-    Set your email address: git config --global user.email MY_NAME@example.com
-  Exit GitBash: exit
+### Install Git for Windows
+   1. Install setup program from this page:
+      + https://gitforwindows.org/
+   2. Under “Adjusting the name of the initial branch in new repositories, and select “Override the default branch name for new repositories” and leave as “main”
+   3. Start GitBash
+   4. Set your username:
+      + ```git config --global user.name "FIRST_NAME LAST_NAME"```
+   5. Set your email address:
+      + ```git config --global user.email MY_NAME@example.com```
+   6. Exit GitBash:
+      + ```exit```
 
-2. Install STM32CubeProgrammer<br>
+### Install STM32CubeProgrammer<br>
 https://www.st.com/en/development-tools/stm32cubeprog.html
 Click Get Software -> Get latest for Win64 ->ACCEPT
 
