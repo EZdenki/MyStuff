@@ -13,6 +13,9 @@
 ### Check what files in current directory are NOT staged/added to repo
 * ```git status```
 
+### Review previous commits
+* ```git log```
+
 ### Check what files are tracked, don't go into directories
 * ```git ls-tree --full-tree --name-only head```
 
