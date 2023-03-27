@@ -1,5 +1,22 @@
 ## Git Cheatsheet
 
+### Remove Branch on Remote Repo
+* ```git push origin -d remote-branch-to-delete```
+
+### Create a New Branch
+* ```git branch newbranch``` Create new branch called "newbranch"
+
+### Checkout a Branch (Make another branch the current branch)
+* ```git checkout other-branch``` (Make "other-branch" the current branch)
+
+### Make a Copy of a Branch
+* ```git branch -c main copy``` Will create a copy of "main" branch called "copy"<br>
+Be sure to "checkout" the newly copied branch as needed!
+
+### Merge Working "copy" branch into "main" branch
+* ```git checkout main``` First make the "main" branch current
+* ```git merge copy``` Merge the changes done in "copy" branch into the "main" branch
+
 ### Clone Remote to Local
 * ```git clone https:github.com/sandynomike/reponame.git```
 
