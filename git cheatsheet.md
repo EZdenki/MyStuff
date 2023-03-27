@@ -5,7 +5,8 @@
 * Make changes to local file
 
 ### Push Local Repo to GitHub -- assumes remote repo exists
-* ```git push origin main```
+* ```git push``` Use current remote (origin) and local (main) branch names
+* ```git push origin main``` Specifty remote and local branch names
 
 ### Pull Remote GitHub Repo to Local Repo -- assumes local repos exists
 * ```git pull origin main```
