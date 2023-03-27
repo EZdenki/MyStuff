@@ -27,6 +27,12 @@
 ### Review previous commits
 * ```git log```
 
+### Check Remote associated with this repo
+* '''git remote -v'''
+
+### Update Remote associated with this repo
+* '''git remote set-url origin https:/github/sandynomike/newRepoName.git
+
 ### Check what files are tracked, don't go into directories
 * ```git ls-tree --full-tree --name-only head```
 
