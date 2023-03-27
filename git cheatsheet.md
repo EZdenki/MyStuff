@@ -4,8 +4,11 @@
 * ```git clone https:github.com/sandynomike/reponame.git```
 * Make changes to local file
 
-### Push Local Repo to GitHub
+### Push Local Repo to GitHub -- assumes remote repo exists
 * ```git push origin main```
+
+### Pull Remote GitHub Repo to Local Repo -- assumes local repos exists
+* ```git pull origin main```
 
 ### Create GitHub Repo from Local
 * ```gh repo create```
