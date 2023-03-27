@@ -1,5 +1,9 @@
 ## Git Cheatsheet
 
+### Clone Remote to Local
+* ```git clone https:github.com/sandynomike/reponame.git```
+* Make changes to local file
+* ```git push origin main```
 ### Install git
 * ```git config --global user.name "myname"```
 * ```git config --global user.email "my@email.com"```
