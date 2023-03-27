@@ -8,15 +8,15 @@
 * ```git push origin main```
 
 ### Create GitHub Repo from Local
-* '''gh repo create'''
+* ```gh repo create```
 
 ### Install git
 * ```git config --global user.name "myname"```
 * ```git config --global user.email "my@email.com"```
 
 ### Set up git for current directory
-* ```git init -b main'''
-* ```git add . && git commit "Initial Commit"
+* ```git init -b main```
+* ```git add . && git commit "Initial Commit"```
 
 ### Update repo with any changes to staged files
 * ```git commit -am "some commit message"```
@@ -28,10 +28,10 @@
 * ```git log```
 
 ### Check Remote associated with this repo
-* '''git remote -v'''
+* ```git remote -v```
 
 ### Update Remote associated with this repo
-* '''git remote set-url origin https:/github/sandynomike/newRepoName.git
+* ```git remote set-url origin https:/github/sandynomike/newRepoName.git```
 
 ### Check what files are tracked, don't go into directories
 * ```git ls-tree --full-tree --name-only head```
