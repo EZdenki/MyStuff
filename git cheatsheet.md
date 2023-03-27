@@ -2,7 +2,6 @@
 
 ### Clone Remote to Local
 * ```git clone https:github.com/sandynomike/reponame.git```
-* Make changes to local file
 
 ### Push Local Repo to GitHub -- assumes remote repo exists
 * ```git push``` Use current remote (origin) and local (main) branch names
