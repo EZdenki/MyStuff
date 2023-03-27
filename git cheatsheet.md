@@ -11,6 +11,10 @@
 ### Pull Remote GitHub Repo to Local Repo -- assumes local repos exists
 * ```git pull origin main```
 
+### Get new files from remote repo but download files that would overwrite local files
+* ```git fetch```
+* ```git fetch origin main```
+
 ### Create GitHub Repo from Local
 * ```gh repo create```
 
