@@ -23,4 +23,6 @@ Edit VIM defaults:
 + Turn on Numbering: ```set number```
 + Turn on syntax highlighting: ```syntax on```
 + Set tabstop to 4: ```set tabstop=4```
++ Make tab do spaces instead of tabs: ```set expandtab```
++ Change back to using tabs instead of spaces: ```set noexpandtab```
 + Change colorscheme: ```colorscheme darkblue```
