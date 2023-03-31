@@ -17,4 +17,10 @@
 ### Misc
 Edit VIM defaults:
 + Navigate to home directory and edit _vimrc
++ .home in Windows is c:\users\username\
 
+### VIM Settings:
++ Turn on Numbering: ```set number```
++ Turn on syntax highlighting: ```syntax on```
++ Set tabstop to 4: ```set tabstop=4```
++ Change colorscheme: ```colorscheme darkblue```
