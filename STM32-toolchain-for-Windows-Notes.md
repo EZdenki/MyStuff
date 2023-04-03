@@ -1,4 +1,4 @@
-## STM32 Toolchain for Windows Notes
+## STM32 Toolchain for Windows Notes -- In transition from a Previous Version -- Do Not Follow!!
 
 ### Install make for Windows
    1. Install setup program from this page:
