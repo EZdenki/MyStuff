@@ -26,3 +26,5 @@ Edit VIM defaults:
 + Make tab do spaces instead of tabs: ```set expandtab```
 + Change back to using tabs instead of spaces: ```set noexpandtab```
 + Change colorscheme: ```colorscheme darkblue```
++ Add statusline: '''set statusline=2'''
++ Add filename and cursor pos. to status line: '''set statusline+=%F\ %l\:%c'''
