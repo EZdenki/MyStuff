@@ -24,7 +24,7 @@ Be sure to "checkout" the newly copied branch as needed!
 * ```git push``` Use current remote (origin) and local (main) branch names
 * ```git push origin main``` Specifty remote and local branch names
 
-### Pull Remote GitHub Repo to Local Repo -- assumes local repos exists
+### Pull Remote GitHub Repo to Local Repo -- assumes local repos exists. Will transfer new files created on remote repo to local repo.
 * ```git pull origin main```
 
 ### Get new files from remote repo but download files that would overwrite local files
