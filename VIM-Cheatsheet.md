@@ -18,6 +18,9 @@
 Edit VIM defaults:
 + Navigate to home directory and edit _vimrc
 + .home in Windows is c:\users\username\
++ Turn on spellcheck: ```:set spell```
++ Turn off spellcheck: ```:set nospell```
++ Get spellcheck suggestions: ```z=``` Then type in letter of suggestion for replacement
 
 ### VIM Settings:
 + Turn on Numbering: ```set number```
