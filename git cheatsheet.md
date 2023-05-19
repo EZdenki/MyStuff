@@ -8,7 +8,7 @@
 ### Add Local Repo to GitHub
 * First, create the new repo on GitHub (from GitHub)
 * After creating the new repo, copy the URL (from GitHub)
-* ```git remote add origin https://github.com/OWNER/REPO.git``` (Replace "http:..." part with copied GitHub URL)
+* ```git remote add origin https://github.com/OWNER/REPO.git``` (Replace "http:// ..." part with copied GitHub URL)
 * ```git push origin main```
 
 ### Remove Branch on Remote Repo
