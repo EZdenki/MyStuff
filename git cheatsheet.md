@@ -1,5 +1,16 @@
 ## Git Cheatsheet
 
+### Initialize a (local) Git Repo
+* ```git init -b main```
+* ```git add .```
+* ```git commit -m "First Commit"
+
+### Add Local Repo to GitHub
+* First, create the new repo on GitHub (from GitHub)
+* After creating the new repo, copy the URL (from GitHub)
+* ```git remote add origin https://hithub.com/OWNER/REPO.git``` (replace OWNER and REPO as needed)
+* ```git push origin main
+
 ### Remove Branch on Remote Repo
 * ```git push origin -d remote-branch-to-delete```
 
