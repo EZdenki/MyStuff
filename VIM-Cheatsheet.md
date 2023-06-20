@@ -1,8 +1,20 @@
 ## Vim Cheatsheet
 ### Navigation
-+ ```e / w``` Go to beginning of previous/next word
++ ```k``` Up
++ ```j``` Down
++ ```l``` Right
++ ```h``` Left
++ ```w / e``` Go to beginning/end of current/next word
++ ```b / B``` Go to previous word
 + ```{ / }``` Go to previous/next paragraph
-+ ```< / >``` Unindent/indent block
++ ```H``` Go to [H]irst line of current screen
++ ```M``` Go to Middle line of current screen
++ ```L``` Go to Last line of current screen
++ ```<ctrl>+f``` Jump Forward one full screen
++ ```<ctrl>+b``` Jump Backwards one full screen
++ ```<ctrl>+d``` Jump Down a half screen
++ ```<ctrl>+u``` Jump Up a half screen
+
 ### Insert / Append / Combine Text
 + ```i``` Insert before the cursor
 + ```I``` Insert at the beginning of the line
@@ -12,6 +24,7 @@
 + ```O``` Append (open) a new line above the current line
 + ```J``` Join the next line to the end of the current line
 + ```ea``` Insert (append) at the end of the word 
++ ```< / >``` Unindent/indent block
 
 
 ### Tools
