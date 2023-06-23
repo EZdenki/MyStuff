@@ -26,6 +26,13 @@
 + ```ea``` Insert (append) at the end of the word 
 + ```< / >``` Unindent/indent block
 
+### Search/Replace Text
++ ```:s/<search_phrase>``` Search for <search_phrase>
++ ```:s/<search_phrase>/<replace_phrase>``` Replace <search_phrase> with <replace_phrase> once in current line
++ ```:s/<search_phrase>/<replace_phrase>/g``` Replace all <search_phrase> <b>in current line</b> with <replace_phrase>
++ ```:%s/<search_phrase>/<replace_phrase>/g``` Replace aLL <search_phrase> <b>in file</b> with <replace_phrase>
++ ```/gi``` For case insensitive
++ ```/gc``` For confirmation prompt. Y=yes, N=no, a=all, q=quit, l=one line
 
 ### Tools
 + ```:E``` File Explorer
