@@ -14,6 +14,8 @@
 + ```<ctrl>+b``` Jump Backwards one full screen
 + ```<ctrl>+d``` Jump Down a half screen
 + ```<ctrl>+u``` Jump Up a half screen
++ ```<ctrl>+y``` Pan down one line
++ ```<ctrl>+e``` Pan up one line
 
 ### Insert / Append / Combine Text
 + ```i``` Insert before the cursor
