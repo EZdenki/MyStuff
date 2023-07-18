@@ -11,6 +11,9 @@
 * ```git remote add origin https://github.com/OWNER/REPO.git``` (Replace "http:// ..." part with copied GitHub URL)
 * ```git push origin main```
 
+### Update Local Branch Name to Match Renamed GitHub Repo Branch Name
+* ```git remote set-url origin https://github.com/OWNER/REPO.git``` (Replace "http:// ..." part with renamed GitHub URL
+  
 ### Remove Branch on Remote Repo
 * ```git push origin -d remote-branch-to-delete```
 
