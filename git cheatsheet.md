@@ -87,6 +87,10 @@ Be sure to "checkout" the newly copied branch as needed!
 ### Remove (unstage) file
 * ```git rm filename.abc```
 
+### Restore modified, uncommitted file
+* ```git status``` See files that have been modified since last commmit
+* ```git restore filename.abc``` to revert modified file to the state when it was last committed
+
 ### Commit changes to repo<br>
 * ```git commit -m "Commit message"``` Commit currently staged files to repo
 * ```git commit -am "Commit message"``` Commit any files to repo that have been changed since last commit
