@@ -36,6 +36,12 @@
 + ```/gi``` For case insensitive
 + ```/gc``` For confirmation prompt. Y=yes, N=no, a=all, q=quit, l=one line
 
+### Window Commands
++ ```<Ctrl>Ws``` Split into 2 vertical windows
++  ```<Ctrl>W<Arrow>``` Move to other window
++ ```<Ctrl>W_``` Maximize current window
++  ```<Ctrl>Wr``` "Rotate" windows
+
 ### Tools
 + ```:E``` File Explorer
 
