@@ -85,7 +85,8 @@ Be sure to "checkout" the newly copied branch as needed!
 * ```git add -A``` Commit all files in this directory
 
 ### Remove (unstage) file
-* ```git rm filename.abc```
+* ```git rm filename.abc``` **Will delete the local file!**
+* ```git rm --cached filename.abc``` Will not delete the local file
 
 ### Restore modified, uncommitted file
 * ```git status``` See files that have been modified since last commmit
