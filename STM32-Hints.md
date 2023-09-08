@@ -33,7 +33,8 @@ main( void )
     
     TIM14->CNT = 0;                                   // Reset timer counter
     <b>TIM14->CCMR1 &= ~(0b111 << TIM_CCMR1_OC1M_Pos);</b>   // Clear OC1M bits
-    <b>TIM14->CCMR1 |=  (0b100 << TIM_CCMR1_OC1M_Pos);</b>   // Force output compare channel 1 to low state
+    <b>TIM14->CCMR1 |=  (0b100 << TIM_CCMR1_OC1M_Pos);</b>   // Force output compare channel 1 to low state.
+                                                      // Change to 0b101 to force output to a high state.
     for( uint32_t x=0; x<463e3; x++ ) ;               // Keep output low for approx. 750 ms
 
     TIM14->CNT = 0;                                   // Reset timer counter
