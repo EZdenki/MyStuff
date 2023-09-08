@@ -29,12 +29,12 @@ main( void )
   // -----------------------------------------------------------------------------------------
   while( 1 )
   {
-    delay_us( 250e3 );                                // Allow 10 Hz PWM output for approx. 250 ms  
+    for( uint32_t x=0; x<154e3; x++ ) ;               // Allow 10 Hz PWM output for approx. 250 ms  
     
     TIM14->CNT = 0;                                   // Reset timer counter
     <b>TIM14->CCMR1 &= ~(0b111 << TIM_CCMR1_OC1M_Pos);</b>   // Clear OC1M bits
     <b>TIM14->CCMR1 |=  (0b100 << TIM_CCMR1_OC1M_Pos);</b>   // Force output compare channel 1 to low state
-    delay_us( 750e3 );                                // Keep output low for approx. 750 ms
+    for( uint32_t x=0; x<463e3; x++ ) ;               // Keep output low for approx. 750 ms
 
     TIM14->CNT = 0;                                   // Reset timer counter
     <b>TIM14->CCMR1 &= ~(0b111 << TIM_CCMR1_OC1M_Pos);</b>   // Clear OC1M bits
