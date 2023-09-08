@@ -2,10 +2,10 @@
 
 + ## Modulate or Break a PWM Signal to a High or Low State<br>
 After you have set up a PWM output signal, change the OCxM bits in the CCMRx register to force the output high or low.<br>
-### From the reference manual:<br>
+### From the Reference Manual:<br>
 ![image](https://github.com/EZdenki/MyStuff/assets/142701437/da949f79-dee3-443e-9533-3375711879e0)
 
-### For Example:
+### Sample Code:
 <pre>
 int
 main( void )
