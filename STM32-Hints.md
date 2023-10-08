@@ -1,8 +1,14 @@
 # STM32 Hints!
 
-+ ## Modulate or Break a PWM Signal to a High or Low State<br>
-After you have set up a PWM output signal, change the OCxM bits in the CCMRx register to force the output high or low.<br>
-### From the Reference Manual:<br>
++ ## Get STLink V2 to upload code when it seems to be hanging due to an interrupt or sleep conflict
+  Bring the BOOT0 pin (pin 1) high. While keeping it high, momentarily ground the reset (NRST) pin (pin 4).
+  Then, while BOOT0 is still high, initialize the upload. Release the BOOT0 pin. If the code does not run after
+  the upload, then momentarily ground the reset (NRST) pin after releasing the BOOT0 pin. It should work!
+
++ ## Modulate or Break a PWM Signal to a High or Low State
+  After you have set up a PWM output signal, change the OCxM bits in the CCMRx register to force the output high or low.<br>
+
+### From the Reference Manual:
 ![image](https://github.com/EZdenki/MyStuff/assets/142701437/da949f79-dee3-443e-9533-3375711879e0)
 
 ### Sample Code:
