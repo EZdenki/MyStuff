@@ -45,6 +45,10 @@ Be sure to "checkout" the newly copied branch as needed!
 * ```git fetch```
 * ```git fetch origin main```
 
+### Restore local repo to match remote repo after local repo has been modified
+* ```git fetch origin```
+* ```git reset --hard origin/main```
+
 ### Create GitHub Repo from Local
 * ```gh repo create```
 
